@@ -1,0 +1,122 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.products {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 15%;
+    background-color: #f2f2f2;
+    padding: 0px;
+    border-right: 1px solid #ccc; /* Add border to separate sidebar from content */
+    
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+   
+}
+
+.sidebar ul li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black; /* Change link color */
+    transition: color 0.3s ease; /* Add transition effect for smoother color change */
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 14px 16px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #666; /* Change link color on hover */
+}
+
+/* Add style for selected item */
+.sidebar ul li a.selected {
+    background-color: #333;
+     /* Change color of selected item */
+    font-weight: bold; /* Make selected item bold */
+}
+
+/* Content styles */
+.content {
+    width: 70%;
+    padding: 20px;
+}
+
+.content h2 {
+    margin-top: 0px;
+    color: #333; /* Change heading color */
+}
+
+
+/* Card styles */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.card {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%; /* Make the image fill the width of the card */
+    border-radius: 8px 8px 0 0; /* Round the top corners of the image */
+    margin-bottom: 15px;
+}
+.card h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.card p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.card h2{
+    color: rgb(238, 7, 165);
+}
+
+.card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card a:hover {
+    background-color: rgb(238, 7, 165);
+}

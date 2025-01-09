@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.user {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.user-info {
+    margin-bottom: 20px;
+}
+.user-info label {
+    font-weight: bold;
+}
+.user-info p {
+    margin: 5px 0;
+}
+
+.btn{
+    height: 35px;
+    background: rgb(238, 7, 165);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.btn:hover{
+    opacity: 0.82;
+}
+
+.right-links {
+    padding: 0 10px;
+    margin-right: 50px;
+    margin-left:80%;
+}
+
+.btn1{
+    height: 35px;
+    background: rgb(238, 7, 165);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+    text-decoration: none;
+
+}
+
+.btn1:hover{
+    opacity: 0.82;
+}
+
+.btn1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.search {
+    width: 300px;
+    margin: 30px ;
+}
+
+form {
+    display: flex;
+    padding: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(238, 7, 165);
+}

@@ -1,0 +1,61 @@
+.table {
+    width: 1300px;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Adjust margin as needed */
+    margin-right: 5px;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd; /* Border color */
+    padding: 8px; /* Padding inside cells */
+    text-align: left; /* Align text left */
+}
+
+.table th {
+    background-color: #f2f2f2; /* Header background color */
+    font-weight: bold; /* Bold font for header */
+}
+
+.update {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    background-color: #4CAF50; 
+    color: white;
+}
+
+.update:hover {
+    opacity: 0.8;
+}
+
+.update a{
+    text-decoration: none;
+    color: white;
+}
+
+.delete {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    background-color: #f44336; 
+    color: white;
+}
+
+.delete:hover {
+    opacity: 0.8;
+}
+
+.delete a{
+    text-decoration: none;
+    color:white;
+}
