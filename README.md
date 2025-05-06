@@ -21,7 +21,20 @@ The **PET Care System** is a PHP & MySQL-based web application designed to simpl
 
 ## 📁 Folder Structure
 
-<pre> ```plaintext PET-Care-System/ ├── admin/ │ ├── users_details/ │ ├── service_details/ │ ├── payment_details/ │ ├── feedbacks/ │ └── ... ├── about/ ├── assets/ ├── user/ ├── staff/ ├── loginselect.php ├── home.php └── ... ``` </pre>
+##PET-Care-System/
+-├── admin/
+-│ ├── users_details/
+-│ ├── service_details/
+-│ ├── payment_details/
+-│ ├── feedbacks/
+-│ └── ...
+-├── about/
+-├── assets/
+-├── user/
+-├── staff/
+-├── loginselect.php
+-├── home.php
+-└── ...
 
 
 ## 🚀 Getting Started
