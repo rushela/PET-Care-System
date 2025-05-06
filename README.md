@@ -46,10 +46,10 @@ PET-Care-System/
 #2.Set up the database:
 -Import the .sql file (found in the /database folder if available) into your local MySQL server using phpMyAdmin or command line.
 
-#Configure the Database:
+#3.Configure the Database:
 -Edit admin/connect.php and other config files with your local MySQL credentials.
 
-#Run the project:
+#4.Run the project:
 -Place the project folder into your web server directory (htdocs for XAMPP).
 -Start Apache and MySQL from XAMPP.
 -Visit http://localhost/PET-Care-System/ in your browser.
