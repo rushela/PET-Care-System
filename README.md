@@ -21,20 +21,23 @@ The **PET Care System** is a PHP & MySQL-based web application designed to simpl
 
 ## 📁 Folder Structure
 
-##PET-Care-System/
--├── admin/
--│ ├── users_details/
--│ ├── service_details/
--│ ├── payment_details/
--│ ├── feedbacks/
--│ └── ...
--├── about/
--├── assets/
--├── user/
--├── staff/
--├── loginselect.php
--├── home.php
--└── ...
+```plaintext
+PET-Care-System/
+├── admin/
+│   ├── users_details/
+│   ├── service_details/
+│   ├── payment_details/
+│   ├── feedbacks/
+│   └── ...
+├── about/
+├── assets/
+├── user/
+├── staff/
+├── loginselect.php
+├── home.php
+└── ...
+```
+
 
 
 ## 🚀 Getting Started
@@ -50,6 +53,6 @@ The **PET Care System** is a PHP & MySQL-based web application designed to simpl
 -Edit admin/connect.php and other config files with your local MySQL credentials.
 
 #4.Run the project:
--Place the project folder into your web server directory (htdocs for XAMPP).
--Start Apache and MySQL from XAMPP.
--Visit http://localhost/PET-Care-System/ in your browser.
+-##Place the project folder into your web server directory (htdocs for XAMPP).
+-##Start Apache and MySQL from XAMPP.
+-##Visit http://localhost/PET-Care-System/ in your browser.
