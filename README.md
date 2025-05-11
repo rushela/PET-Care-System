@@ -1,5 +1,5 @@
 # 🐶 PET Care System
-<img src="https://raw.githubusercontent.com/rushela/rushela/main/assets/dog.gif" alt="animated banner" width="4%"/> 
+<img src="https://raw.githubusercontent.com/rushela/rushela/main/assets/dog.gif" alt="animated banner" width="20%"/> 
 The **PET Care System** is a PHP & MySQL-based web application designed to simplify the management of pet care services. It supports role-based access for admins, staff, and pet owners, and provides a seamless way to manage pets, appointments, medical records, and payments.
 
 ## 🌟 Features
